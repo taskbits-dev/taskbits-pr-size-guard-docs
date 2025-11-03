@@ -1,0 +1,14 @@
+pr-size-guard:
+  thresholds:
+    XS: 49
+    S: 99
+    M: 399
+    L: 799
+    XL: 999999
+  ignore:
+    - "**/*.md"
+    - "**/*.lock"
+    - "pnpm-lock.yaml"
+    - "yarn.lock"
+    - "package-lock.json"
+  commentMinLines: 400
