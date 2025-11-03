@@ -11,3 +11,6 @@ Auto-labels PR size (XS–XL) from additions+deletions. YAML config, ignores doc
 - **Terms:** https://taskbits.app/terms
 
 See `examples/taskbits.yml` for config.
+
+### 20s demo
+![Taskbits PR Size Guard — demo](assets/pr-size-guard-demo.gif)
